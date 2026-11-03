@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../recursos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../recursos/css/style.css">
+
+    <title>Feria Virtual de Carreras</title>
+  </head>
+  <body class="bg-azul-claro">
+
+    <!--
+
+    *******************  Menú   *******************
+
+    -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-oscuro">
+      <a class="navbar-brand" href="../">UADER <strong>FCyT</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../bienvenidos/">Bienvenidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../ingreso/">Ingreso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../carreras/">Carreras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../tutorias/">Tutorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../bienestar/">Bienestar Estudiantil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../museo/">Museo de Ciencias Naturales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://tourfcytuader.com/" target="_blank">Tour por la FCyT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../ubicacion/">Ubicación</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- d-sm-flex 576 - d-md-flex 768 - d-lg-flex 990 - d-xl-flex 1200 -->
+
+
+
+    <!--
+
+    *******************  Container   *******************
+
+    -->
+    <section class="cuerpo pt-5 h-100">
+      <div class="container-md bg-light text-center text-azul-medio pt-3 pb-3 h-100">
+        <h1 class="pt-3">Contactate con la FCyT</h1>
+        <p><a href="https://www.facebook.com/uaderfcytcdelu" target="_blank"><i class='fab fa-facebook-square' style='font-size:24px;color:blue'></i> Seguinos en Facebook</a></p>
+        <p><a href="https://www.instagram.com/fcyt_uader_cdelu/?hl=es-la" target="_blank"><i class='fab fa-instagram' style='font-size:24px;color:gray'></i> Seguinos en Instagram</a></p>
+        <p><a href="https://www.youtube.com/channel/UCb4RLTZlFFZOWdcR7ZpokFQ" target="_blank"><i class='fab fa-youtube' style='font-size:24px;color:red'></i> Nuestro Canal de Youtube</a></p>
+        <p><i class='far fa-envelope' style='font-size:24px;color:red'></i> Subsecretaría Académica: fcyt_academicacdelu@uader.edu.ar</p>
+        <p><i class='far fa-envelope' style='font-size:24px;color:red'></i> Subsecretaría de Investigación y Posgrado: fcyt_investigacioncdelu@uader.edu.ar</p>
+        <p><i class='far fa-envelope' style='font-size:24px;color:red'></i> Subsecretaría de Extension Universitaria: fcyt_extensioncdelu@uader.edu.ar</p>
+        <p><i class='far fa-envelope' style='font-size:24px;color:red'></i> Coordinación: coordinacioncde@fcyt.uader.edu.ar</p>
+        <p><i class='fas fa-phone' style='font-size:24px'></i> Tel: 03442 - 431442</p>
+      </div>
+    </section>
+
+    <!--
+
+    *******************  Footer   *******************
+
+    -->
+    <footer class="footer fixed-bottom">
+      <div class="container-fluid bg-azul-medio">
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col-sm-12 p-3">
+            <a href="http://fcytcdelu.uader.edu.ar/" target="_blank">
+              Facultad de Ciencia y Tecnología - Concepción del Uruguay
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="../recursos/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../recursos/js/popper.min.js"></script>
+    <script src="../recursos/js/bootstrap.min.js"></script>
+  </body>
+</html>

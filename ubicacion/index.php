@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../recursos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../recursos/css/style.css">
+
+    <title>Feria Virtual de Carreras</title>
+  </head>
+  <body class="bg-azul-claro">
+
+    <!--
+
+    *******************  Menú   *******************
+
+    -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-oscuro">
+      <a class="navbar-brand" href="../">UADER <strong>FCyT</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../bienvenidos/">Bienvenidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../ingreso/">Ingreso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../carreras/">Carreras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../tutorias/">Tutorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../bienestar/">Bienestar Estudiantil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../museo/">Museo de Ciencias Naturales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://tourfcytuader.com/" target="_blank">Tour por la FCyT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contacto/">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./">Ubicación</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- d-sm-flex 576 - d-md-flex 768 - d-lg-flex 990 - d-xl-flex 1200 -->
+
+
+
+    <!--
+
+    *******************  Container   *******************
+
+    -->
+    <section class="cuerpo pt-5 h-100">
+      <div class="container-md bg-light text-center text-azul-medio pt-3 pb-3 h-100">
+        <h1 class="pt-3">¿Cómo llegar a la FCyT?</h1>
+        <div class="row justify-content-center align-items-center text-center pb-5 mb-3">
+          <p>Estamos en la ciudad de Concepción del Uruguay, en calle 25 de Mayo 385, esquina Belgrano.</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d53852.18604158983!2d-58.233333!3d-32.479067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaaed5580ffd8b6b!2sUADER%20-%20Facultad%20de%20Ciencia%20y%20Tecnolog%C3%ADa!5e0!3m2!1ses-419!2sar!4v1593122533738!5m2!1ses-419!2sar" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!--
+
+    *******************  Footer   *******************
+
+    -->
+    <footer class="footer fixed-bottom">
+      <div class="container-fluid bg-azul-medio">
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col-sm-12 p-3">
+            <a href="http://fcytcdelu.uader.edu.ar/" target="_blank">
+              Facultad de Ciencia y Tecnología - Concepción del Uruguay
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../recursos/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../recursos/js/popper.min.js"></script>
+    <script src="../recursos/js/bootstrap.min.js"></script>
+  </body>
+</html>

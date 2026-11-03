@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../recursos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../recursos/css/style.css">
+
+    <title>Feria Virtual de Carreras</title>
+  </head>
+  <body class="bg-azul-claro">
+
+
+        <!--
+
+        *******************  Menú   *******************
+
+        -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-oscuro">
+      <a class="navbar-brand" href="../">UADER <strong>FCyT</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../bienvenidos/">Bienvenidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./">Ingreso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../carreras/">Carreras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../tutorias/">Tutorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../bienestar/">Bienestar Estudiantil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../museo/">Museo de Ciencias Naturales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://tourfcytuader.com/" target="_blank">Tour por la FCyT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contacto/">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../ubicacion/">Ubicación</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- d-sm-flex 576 - d-md-flex 768 - d-lg-flex 990 - d-xl-flex 1200 -->
+    <section class="title pt-5 text-center text-light">
+      <h1 class="pt-3">Ingreso</h1>
+    </section>
+
+
+    <!--
+
+    *******************  Banner   *******************
+
+    -->
+    <section class="banner">
+      <img src="../recursos/img/banner-ingreso.jpg" class="d-block w-100" alt="...">
+    </section>
+
+
+
+    <!--
+
+    *******************  Container   *******************
+
+    -->
+    <section class="cuerpo pb-3">
+      <div class="container-md bg-light align-items-center text-center text-azul-medio p-5">
+        <div class="row align-items-center text-justify">
+          <div class="col-sm-12">
+            <p>La Facultad de Ciencia y Tecnología Sede Concepción del Uruguay ofrece el curso de ingreso con la finalidad de actualizar, reforzar y nivelar los conocimientos de los estudiantes ingresantes, asegurando así un plano de equidad e igualdad más allá de las particularidades de los trayectos previos de formación.</p>
+            <p>Cada año, el curso de ingreso se realiza bajo dos modalidades:</p>
+            <!--<h4>Modalidad Extensiva</h4>
+            <p>El curso de ingreso extensivo se lleva a cabo durante los meses de agosto a diciembre resultando de gran utilidad para los ingresantes, ya que el hecho de cursar semanalmente los distintos módulos les permite lograr un aprendizaje gradual y progresivo cuyo fruto se evidencia durante el primer año de la carrera con un mejor rendimiento académico.</p>-->
+	    <h4>Extensivo en Modalidad Virtual</h4>
+	    <p>El curso de ingreso extensivo se cursa una o dos veces a la semana, y en esta oportunidad debido a la emergencia sanitaria provocada por la Pandemia Covid-19, el dictado de las clases será virtual. El cursado comenzará en fecha a definir próximamente.</p>
+            <h4>Modalidad Intensiva</h4>
+            <p>El curso de ingreso intensivo se realiza cada año durante el mes de febrero y tiene una cursada diaria, desarrollándose en tres turnos. La duración es de 4 semanas.</p>
+	    <h4>Documentación a presentar</h4>
+      <p>Los ingresantes deberán <b>presentar la siguiente documentacion en la Facultad en original o copia certificada, para completar el legajo del estudiante</b>.</p>
+      <ol>
+        <li>Archivo PDF descargado a partir de la preinscripción online.</li>
+        <li>Copia de Título Secundario o Certificado de Título Secundario en Trámite legalizado. Para ser legalizada por nuestra Sede se debe presentar copia del título o bien del certificado exhibiendo el original tanto del título como de la constancia original del título trámite. *</li>
+        <li>Testimonio de Nacimiento. Legalizado y actualizado.</li>
+        <li>Copia ambos lados del Documento de identidad. Al momento de la presentación se debe exhibir original.</li>
+        <li>Tres fotos de frente (fondo blanco o celeste). No instantánea.</li>
+        <li>Constancia de grupo sanguíneo y factor.</li>
+      </ol>
+      <p>* Quienes estén cursando aún el último año del nivel secundario deberán presentar en una primera instancia la constancia de alumno/a regular del último año de la educación secundaria con firma y sello de autoridad competente. Luego, al culminar el nivel medio deberá presentar lo que se detallo en el punto 2.</p>
+      <p>En el caso de tratarse de una situación contemplada en el art. 7 de la Ley 24521 de Educación Superior <b>(persona mayor de 25 años de edad con estudios secundarios no finalizados)</b> deberá aparte de completar la Pre-inscripción y entregar la documentación, completar el <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQgBgZ8vthbRXJ4vcQr4KThJVPNMry0fHotBaKzPWvPuYGJA/viewform?usp=sf_link" target="_blank">siguiente formulario</a>.</p>
+	    <!--<p>Los ingresantes deberán enviar a la siguiente dirección de correo electrónico fcyt_academicacdelu@uader.edu.ar la documentación escaneada o fotografiada que se indica más abajo, <b>teniendo en cuenta que al inicio de las actividades presenciales dicha documentación se deberá presentar en la Facultad en original o copia certificada, para completar el legajo del estudiante</b>.</p>
+	    <ul>
+	        <li>Certificado de Estudio de Nivel Medio o constancia de certificado en trámite (si lo tuviere)</li>
+	        <li>Fotocopia legalizada de la Partida de Nacimiento</li>
+	        <li>Fotocopia del DNI</li>
+	        <li>Grupo sanguíneo y factor RH</li>
+	        <li>Tres fotos 4x 4 no instantáneas</li>
+	        <li>Archivo PDF descargado a partir de la preinscripción online</li>
+	    </ul>
+	    <p>Los mayores de 25 años que no tengan el Nivel Medio completo deben presentar Certificado de Nivel Primario o Nivel Medio incompleto (escaneado y oportunamente la documentación original) y aprobar Examen de Competencia durante el año lectivo.</p>
+	    <p>Los aspirantes extranjeros deberán acreditar radicación permanente en el país en el momento de la inscripción.</p>-->
+	    <p><a class="btn btn-info" href="http://preinscripcion2022.uader.edu.ar/" target="_blank">Pre-inscripción</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+        <!--
+
+        *******************  Footer   *******************
+
+        -->
+        <footer class="footer fixed-bottom">
+          <div class="container-fluid bg-azul-medio">
+            <div class="row justify-content-center align-items-center text-center">
+              <div class="col-sm-12 p-3">
+                <a href="http://fcytcdelu.uader.edu.ar/" target="_blank">
+                  Facultad de Ciencia y Tecnología - Concepción del Uruguay
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../recursos/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../recursos/js/popper.min.js"></script>
+    <script src="../recursos/js/bootstrap.min.js"></script>
+  </body>
+</html>

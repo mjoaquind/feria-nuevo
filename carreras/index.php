@@ -1,0 +1,205 @@
+<!doctype html>
+ <html lang="en">
+   <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="../recursos/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../recursos/css/style.css">
+
+     <title>Feria Virtual de Carreras</title>
+   </head>
+   <body class="bg-azul-claro">
+
+     <!--
+
+     *******************  Menú   *******************
+
+     -->
+     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-oscuro">
+       <a class="navbar-brand" href="../">UADER <strong>FCyT</strong></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="../bienvenidos/">Bienvenidos</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../ingreso/">Ingreso</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link active" href="./">Carreras <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../tutorias/">Tutorías</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../bienestar/">Bienestar Estudiantil</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../museo/">Museo de Ciencias Naturales</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="https://tourfcytuader.com/" target="_blank">Tour por la FCyT</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../contacto/">Contacto</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../ubicacion/">Ubicación</a>
+           </li>
+         </ul>
+       </div>
+     </nav>
+
+     <!-- d-sm-flex 576 - d-md-flex 768 - d-lg-flex 990 - d-xl-flex 1200 -->
+
+     <section class="title pt-5 text-center text-light">
+       <h1 class="pt-3">Nuestras Carreras de Grado</h1>
+     </section>
+
+
+     <!--
+
+     *******************  Carousel   *******************
+
+     -->
+     <section class="slider">
+       <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+         <ol class="carousel-indicators">
+           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+         </ol>
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <img src="../recursos/img/slider-telecomunicaciones.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="../recursos/img/slider-automatizacion.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="../recursos/img/slider-sistemas.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="../recursos/img/slider-biologia.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="../recursos/img/slider-fisica.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="../recursos/img/slider-matematica.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="../recursos/img/slider-quimica.jpg" class="d-block w-100" alt="...">
+           </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+         </a>
+       </div>
+     </section>
+
+
+     <!--
+
+     *******************  Container   *******************
+
+     -->
+     <section class="cuerpo">
+       <div class="container-md bg-light pt-3 pb-5">
+         <div class="row justify-content-center align-items-center text-center pb-3">
+           <div class="col-md-6 p-2">
+             <a href="./telecomunicaciones/">
+               <div class="inner">
+                 <img src="../recursos/img/icono-telecomunicaciones.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+               </div>
+             </a>
+           </div>
+           <div class="col-md-6 p-2">
+             <a href="./automatizacion/">
+               <div class="inner">
+                 <img src="../recursos/img/icono-automatizacion.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+               </div>
+             </a>
+           </div>
+           <div class="col-md-6 p-2">
+             <a href="./sistemas/">
+               <div class="inner">
+                 <img src="../recursos/img/icono-sistemas.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+               </div>
+             </a>
+           </div>
+           <div class="col-md-6 p-2">
+             <a href="./biologia/">
+               <div class="inner">
+                 <img src="../recursos/img/icono-biologia.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+               </div>
+             </a>
+           </div>
+           <div class="col-md-6 p-2">
+             <a href="./fisica/">
+               <div class="inner">
+                 <img src="../recursos/img/icono-fisica.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+               </div>
+             </a>
+           </div>
+           <div class="col-md-6 p-2">
+             <a href="./matematica/">
+               <div class="inner">
+                 <img src="../recursos/img/icono-matematica.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+               </div>
+             </a>
+           </div>
+           <div class="col-md-6 p-2">
+             <a href="./quimica/">
+               <div class="inner">
+                 <img src="../recursos/img/icono-quimica.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+               </div>
+             </a>
+           </div>
+         </div>
+       </div>
+     </section>
+
+
+     <!--
+
+     *******************  Footer   *******************
+
+     -->
+     <footer class="footer fixed-bottom">
+       <div class="container-fluid bg-azul-medio">
+         <div class="row justify-content-center align-items-center text-center">
+           <div class="col-sm-12 p-3">
+             <a href="http://fcytcdelu.uader.edu.ar/" target="_blank">
+               Facultad de Ciencia y Tecnología - Concepción del Uruguay
+             </a>
+           </div>
+         </div>
+       </div>
+     </footer>
+
+
+
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="../recursos/js/jquery-3.5.1.slim.min.js"></script>
+     <script src="../recursos/js/popper.min.js"></script>
+     <script src="../recursos/js/bootstrap.min.js"></script>
+   </body>
+ </html>

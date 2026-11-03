@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../recursos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../recursos/css/style.css">
+
+    <title>Feria Virtual de Carreras</title>
+  </head>
+  <body class="bg-azul-claro">
+
+    <!--
+
+    *******************  Menú   *******************
+
+    -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-oscuro">
+      <a class="navbar-brand" href="../">UADER <strong>FCyT</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../bienvenidos/">Bienvenidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../ingreso/">Ingreso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../carreras/">Carreras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../tutorias/">Tutorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./">Bienestar Estudiantil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../museo/">Museo de Ciencias Naturales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://tourfcytuader.com/" target="_blank">Tour por la FCyT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contacto/">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../ubicacion/">Ubicación</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- d-sm-flex 576 - d-md-flex 768 - d-lg-flex 990 - d-xl-flex 1200 -->
+
+
+    <!--
+
+    *******************  Container   *******************
+
+    -->
+    <section class="cuerpo">
+      <div class="container-md bg-light justify-content-center align-items-center text-center text-azul-medio py-5">
+        <h1 class="pt-3">Bienestar Estudiantil</h1>
+        <div class="card">
+          <div class="card-image">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.youtube.com/embed/8sgoeemBDHE?rel=0" frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">La Lic. Emilce Castillo, responsable de Bienestar Estudiantil, informa acerca de los beneficios para nuestros estudiantes.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center text-center pb-3">
+          <div class="col-md-6 p-2" data-toggle="modal" data-target="#becas">
+            <a href="#">
+              <div class="inner">
+                <img src="../recursos/img/icono-becas.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+              </div>
+            </a>
+          </div>
+          <!-- The Modal -->
+          <div class="modal fade" id="becas">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Becas</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body text-justify">
+                  <p>El Área de Bienestar Estudiantil considera indispensable garantizar la igualdad de oportunidades para el acceso y la permanencia a los estudios universitarios reconociendo las necesidades de sus estudiantes. Es por esto que realiza la entrega de los formularios de postulación, e informa sobre las fechas de presentación de los formularios completos y la documentación correspondiente, los períodos de evaluación de los mismos y las fechas de presentación de los resultados de los diferentes sistemas de becas a los cuales pueden acceder los alumnos.</p>
+                  <p><b>BECAS UADER:</b> Son un beneficio al que puede acceder cualquier estudiante ingresante o regular de las carreras de grado y pregrado que se dictan en nuestra universidad, ser argentino o acreditar 2 (dos) años de residencia en el país.</p>
+                  <p><b>BECAS INAUBEPRO - CARRERAS PRIORITARIAS:</b> destinadas a estudiantes universitarios de aquellas carreras que son estratégicas para la provincia.  Se tratan de carreras vinculadas a la Ciencia y la Tecnología, en donde se forman profesionales altamente calificados que pueden agregar valor a la cadena productiva, y así contribuir con el crecimiento del país. Las carreras de esta Facultad son consideradas Prioritarias.</p>
+                  <p><b>BECAS PROGRESAR - CARRERAS ESTRATÉGICAS:</b> Están destinadas a jóvenes argentinos/as, nativos/as o por opción que ingresen o estén cursando carreras de grado, tecnicaturas o profesorados universitarios y no universitarios. Para el caso de los/as ingresantes, el/la joven deberá tener al momento del cierre de la convocatoria correspondiente, entre dieciocho (18) y veinticuatro (24) años cumplidos. Para el caso de estudiantes avanzados, esa edad se extenderá hasta los treinta (30) años cumplidos.</p>
+                  <p><b>Contacto:</b> bienestarcdelu@fcyt.uader.edu.ar</p>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 p-2" data-toggle="modal" data-target="#beneficios">
+            <a href="#">
+              <div class="inner">
+                <img src="../recursos/img/icono-beneficios.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+              </div>
+            </a>
+          </div>
+          <!-- The Modal -->
+          <div class="modal fade" id="beneficios">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Beneficios</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body text-justify">
+                  <h4>Convenio con Jardines de Infantes - Servicio de Guardería:</h4>
+                  <p>Salas de 45 días a 1 año - de 1 año a 3 años - de 3 años a 5 años.</p>
+                  <ul>
+                    <li>Jardín Aromitos - Sarmiento 589</li>
+                    <li>Jardín Gurisitos - Artusi 850</li>
+                  </ul>
+                  <p>Documentación a presentar:</p>
+                  <ul>
+                    <li>Fotocopia del DNI</li>
+                    <li>Constancia de alumno regular (si es ingresante averiguar por constancia de alumno de introductorio)</li>
+                    <li>Fotocopia de la partida de nacimiento</li>
+                  </ul>
+                  <p>Los pequeños que concurran a la sala de 45 días a 1 año deben realizar periodo de adaptación, el mismo consta de 1 semana de adaptación de 1 hora donde se solicita que un padre esté cerca, y la segunda semana de 1 hora y media.</p>
+                  <p>Se le solicitará también los horarios de cursada, ya que tendrán en cuenta los suplentes.</p>
+                  <p>Todos los días a partir de las 17:30 en el jardín. El cupo es por orden de llegada.</p>
+
+                  <h4>Actividades Culturales GRATUITAS</h4>
+                  <ul>
+                    <li>Coro</li>
+                    <li>Teatro</li>
+                    <li>Folclore</li>
+                  </ul>
+                  <p>Inscripción en Bienestar Estudiantil presentando constancia de alumno regular.</p>
+
+                  <h4>Idiomas</h4>
+                  <p>Los cursos son dictados por el Centro Intercultural de Lenguas (CILEN), correspondiente a la Facultad de Humanidades, Artes y Ciencias Sociales de la UADER.</p>
+                  <ul>
+                    <li>Guaraní</li>
+                    <li>Alemán</li>
+                    <li>Italiano</li>
+                    <li>Inglés</li>
+                    <li>Portugués</li>
+                    <li>Francés</li>
+                  </ul>
+
+                  <h4>Deportes</h4>
+                  <p>Queremos conocer tu opinión sobre qué deportes te gustaría practicar, para eso, te solicitamos que completes la <a href="https://docs.google.com/forms/d/e/1FAIpQLSdcoYy75xZOfTu-fpso_eYkCrqoyLWOiHceatLbLUHzb5CyCQ/viewform?usp=sf_link" target="_blank">siguiente encuesta</a>.</p>
+                  <p><b>Consultas:</b> bienestarcdelu@fcyt.uader.edu.ar</p>
+                  <p><img alt="Tarjeta Bienestar" data-align="left" data-entity-type="file" data-entity-uuid="fe771b09-02ba-4ea7-bc6e-6cb773d636be" src="http://fcytcdelu.uader.edu.ar/sites/default/files/inline-images/TARJETA%20BIENESTAR%20ESTUDIANTIL.jpg" /></p>
+                  <p dir="ltr"><strong>Tarjeta Bienestar Estudiantil</strong></p>
+                  <p dir="ltr"><span>Solicitá tu tarjeta “Bienestar Estudiantil” y accedé a importantes descuentos en comercios adheridos.</span></p>
+                  <p><a href="http://fcytcdelu.uader.edu.ar/sites/default/files/2019-11/LISTADO%20DE%20COMERCIOS%20ADHERIDOS%20A%20LA%20TARJETA%20BIENESTAR.pdf" target="_blank">Listado de comercios adheridos</a></p>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+
+    *******************  Footer   *******************
+
+    -->
+    <footer class="footer fixed-bottom">
+      <div class="container-fluid bg-azul-medio">
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col-sm-12 p-3">
+            <a href="http://fcytcdelu.uader.edu.ar/" target="_blank">
+              Facultad de Ciencia y Tecnología - Concepción del Uruguay
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../recursos/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../recursos/js/popper.min.js"></script>
+    <script src="../recursos/js/bootstrap.min.js"></script>
+  </body>
+</html>

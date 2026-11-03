@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../recursos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../recursos/css/style.css">
+
+    <title>Feria Virtual de Carreras</title>
+  </head>
+  <body class="bg-azul-claro">
+
+
+    <!--
+
+    *******************  Menú   *******************
+
+    -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-oscuro">
+      <a class="navbar-brand" href="../../">UADER <strong>FCyT</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Desplegar menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../../bienvenidos/">Bienvenidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../ingreso/">Ingreso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../carreras/">Carreras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../tutorias/">Tutorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../bienestar/">Bienestar Estudiantil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../museo/">Museo de Ciencias Naturales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://tourfcytuader.com/" target="_blank">Tour por la FCyT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../contacto/">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../ubicacion/">Ubicación</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- d-sm-flex 576 - d-md-flex 768 - d-lg-flex 990 - d-xl-flex 1200 -->
+
+    <section class="cuerpo">
+      <div class="container-md bg-light justify-content-center align-items-center text-center text-azul-medio py-5">
+        <h2 class="pt-3">Profesorado en Física</h2>
+        <div class="card">
+          <div class="card-image">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.youtube.com/embed/JDkFVakcRM0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Video Institucional del Profesorado en Física.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center text-center py-3">
+          <div class="col-md-4 p-2" data-toggle="modal" data-target="#perfil">
+            <a href="#">
+              <div class="inner">
+                <img src="../../recursos/img/icono-perfil.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+              </div>
+            </a>
+          </div>
+          <!-- The Modal -->
+          <div class="modal fade" id="perfil">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Perfil Profesional</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body text-justify">
+                  <p>El profesor en Física que egresa tiene una sólida formación teórica práctica tanto en el campo de la ciencia como en el campo educativo. Es capaz de detectar la presencia de problemas en la enseñanza y aprendizaje de la Física, que le permitan tomar decisiones teniendo en cuenta la metodología de abordaje de esta ciencia. Se desempeña en su quehacer docente de manera apropiada y creativa, teniendo en consideración las problemáticas ambientales actuales, realizando acciones que contribuyan al mejoramiento de la calidad de vida. Además, está preparado para continuar su formación en actividades de investigación y/o carreras de postgrado.</p>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-2" data-toggle="modal" data-target="#alcances">
+            <a href="#">
+              <div class="inner">
+                <img src="../../recursos/img/icono-alcances.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+              </div>
+            </a>
+          </div>
+          <!-- The Modal -->
+          <div class="modal fade" id="alcances">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Alcances del Título</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body text-justify">
+                  <ul>
+                  	<li>Planificar, conducir y evaluar los procesos de enseñanza aprendizaje vinculados Ciencias Naturales en general y a la Física en particular, tanto en la escuela secundaria, como en el nivel Superior y en el Universitario.</li>
+                  	<li>Asesorar en lo concerniente al proceso de enseñanza y aprendizaje en lo relacionado con el área de conocimiento específico.</li>
+                  	<li>Participar en equipos de investigación del área epistemológica.</li>
+                  	<li>Participar en equipos de investigación interdisciplinaria y educativa.</li>
+                  </ul>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 p-2" data-toggle="modal" data-target="#plan">
+            <a href="#">
+              <div class="inner">
+                <img src="../../recursos/img/icono-plan.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+              </div>
+            </a>
+          </div>
+          <!-- The Modal -->
+          <div class="modal fade" id="plan">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Plan de Estudios</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body text-center">
+                  <table class="table table-hover">
+                    <thead>
+                  		<tr>
+                  			<th>Código</th>
+                  			<th>Asignatura</th>
+                  			<th>Designación</th>
+                  			<th>Carga Horaria</th>
+                  			<th>Correlatividad</th>
+                  		</tr>
+                  	</thead>
+                  	<tbody>
+                  		<tr>
+                  			<td colspan="5"><b>Primer Año</b></td>
+                  		</tr>
+                  		<tr>
+                  			<td>403101</td>
+                  			<td>Idioma Extranjero I</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>32</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403102</td>
+                  			<td>Idioma Extranjero II</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>32</td>
+                  			<td>101</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403103</td>
+                  			<td>Epistemología</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>96</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403104</td>
+                  			<td>Informática</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>48</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403105</td>
+                  			<td>Matemática General</td>
+                  			<td>Anual</td>
+                  			<td>128</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403106</td>
+                  			<td>Física General I</td>
+                  			<td>Anual</td>
+                  			<td>128</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403107</td>
+                  			<td>Biología I</td>
+                  			<td>Anual</td>
+                  			<td>128</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403108</td>
+                  			<td>Química I</td>
+                  			<td>Anual</td>
+                  			<td>128</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403109</td>
+                  			<td>Lectura y Producción de Textos Científicos</td>
+                  			<td>Anual</td>
+                  			<td>96</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403110</td>
+                  			<td>Laboratorio I</td>
+                  			<td>Anual</td>
+                  			<td>64</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td colspan="5"><b>Segundo Año</b></td>
+                  		</tr>
+                  		<tr>
+                  			<td>403211</td>
+                  			<td>Física General II</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>96</td>
+                  			<td>106</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403212</td>
+                  			<td>Química II</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>80</td>
+                  			<td>108</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403213</td>
+                  			<td>Análisis Matemático I</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>80</td>
+                  			<td>105</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403214</td>
+                  			<td>Ciencias de la Tierra I</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>48</td>
+                  			<td>107 - 108</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403215</td>
+                  			<td>Pedagogía</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>48</td>
+                  			<td>103</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403216</td>
+                  			<td>Biología II</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>80</td>
+                  			<td>107</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403217</td>
+                  			<td>Probabilidad y Estadística</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>213</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403218</td>
+                  			<td>Ciencias de la Tierra II</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>48</td>
+                  			<td>214</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403219</td>
+                  			<td>Sociología de la Educación</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>215</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403220</td>
+                  			<td>Didáctica General</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>215</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403221</td>
+                  			<td>Taller de Integración</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>106 - 107 - 108</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403222</td>
+                  			<td>Laboratorio II</td>
+                  			<td>Anual</td>
+                  			<td>64</td>
+                  			<td>106 - 110</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403223</td>
+                  			<td>Mecánica</td>
+                  			<td>Anual</td>
+                  			<td>96</td>
+                  			<td>105 - 106</td>
+                  		</tr>
+                  		<tr>
+                  			<td colspan="5"><b>Tercer Año</b></td>
+                  		</tr>
+                  		<tr>
+                  			<td>403324</td>
+                  			<td>Óptica Geométrica y Física</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>96</td>
+                  			<td>105 - 211</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403325</td>
+                  			<td>Análisis Matemático II</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>64</td>
+                  			<td>213</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403326</td>
+                  			<td>Electromagnetismo</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>96</td>
+                  			<td>211 - 213</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403327</td>
+                  			<td>Psicología Educacional</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>80</td>
+                  			<td>219</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403328</td>
+                  			<td>Didáctica de las Ciencias Naturales</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>64</td>
+                  			<td>219 - 220</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403329</td>
+                  			<td>Física Atómica y Nuclear</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>96</td>
+                  			<td>108 - 213</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403330</td>
+                  			<td>Práctica Docente I (EGB3)</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>128</td>
+                  			<td>Aprobado 1º año y 211 - 212 - 216 - 218 - 327 y 328</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403331</td>
+                  			<td>Metodología de la Investigación Educativa</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>103 - 109</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403332</td>
+                  			<td>Laboratorio III</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>48</td>
+                  			<td>222</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403333</td>
+                  			<td>Optativa I</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>48</td>
+                  			<td>* ver cuadro final</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403334</td>
+                  			<td>Calor y Termodinámica</td>
+                  			<td>Anual</td>
+                  			<td>96</td>
+                  			<td>211 - 213</td>
+                  		</tr>
+                  		<tr>
+                  			<td colspan="5"><b>Cuarto Año</b></td>
+                  		</tr>
+                  		<tr>
+                  			<td>403435</td>
+                  			<td>Física Cuántica</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>64</td>
+                  			<td>223 - 329</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403436</td>
+                  			<td>Política Educativa</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>64</td>
+                  			<td>219</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403437</td>
+                  			<td>Didáctica de la Física</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>64</td>
+                  			<td>328</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403438</td>
+                  			<td>Física Relativista</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>223</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403439</td>
+                  			<td>Análisis Institucional</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>436</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403440</td>
+                  			<td>Optativa II</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>48</td>
+                  			<td>* Ver cuadro final</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403441</td>
+                  			<td>Taller de Investigación de la Enseñanza de la Física</td>
+                  			<td>Anual</td>
+                  			<td>96</td>
+                  			<td>221 - 331</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403442</td>
+                  			<td>Astrofísica</td>
+                  			<td>Anual</td>
+                  			<td>96</td>
+                  			<td>223</td>
+                  		</tr>
+                  		<tr>
+                  			<td>403443</td>
+                  			<td>Práctica Docente II (Polimodal y Superior)</td>
+                  			<td>Anual</td>
+                  			<td>256</td>
+                  			<td>Aprobado 1º y 2º año y 324 - 329 - 330 - 334</td>
+                  		</tr>
+                  	</tbody>
+                  </table>
+
+
+                  <h4>Materias Optativas</h4>
+
+                  <table class="table table-hover">
+                  	<thead>
+                  		<tr>
+                  			<th>Código</th>
+                  			<th>Asignatura</th>
+                  			<th>Designación</th>
+                  			<th>Carga Horaria</th>
+                  			<th>Correlatividad</th>
+                  		</tr>
+                  	</thead>
+                  	<tbody>
+                  		<tr>
+                  			<td rowspan="4">403333</td>
+                  			<td>Educación no formal en Física</td>
+                  			<td rowspan="7">Cuatrim. (C2)</td>
+                  			<td rowspan="7">48</td>
+                  			<td>327 - 328</td>
+                  		</tr>
+                  		<tr>
+                  			<td>Epistemología de las Ciencias Empíricas</td>
+                  			<td>103 - 221</td>
+                  		</tr>
+                  		<tr>
+                  			<td>Física Aplicada a la Educación Tecnológica</td>
+                  			<td>221 - 328</td>
+                  		</tr>
+                  		<tr>
+                  			<td>Derechos Humanos y Tecnología</td>
+                  			<td>221</td>
+                  		</tr>
+                  		<tr>
+                  			<td rowspan="3">403440</td>
+                  			<td>Biofísica</td>
+                  			<td>216 - 324</td>
+                  		</tr>
+                  		<tr>
+                  			<td>Física de las Partículas</td>
+                  			<td>435</td>
+                  		</tr>
+                  		<tr>
+                  			<td>Física de la Atmósfera</td>
+                  			<td>218 - 435</td>
+                  		</tr>
+                  	</tbody>
+                  </table>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+
+    *******************  Footer   *******************
+
+    -->
+    <footer class="footer fixed-bottom">
+      <div class="container-fluid bg-azul-medio">
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col-sm-12 p-3">
+            <a href="http://fcytcdelu.uader.edu.ar/" target="_blank">
+              Facultad de Ciencia y Tecnología - Concepción del Uruguay
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../../recursos/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../recursos/js/popper.min.js"></script>
+    <script src="../../recursos/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../recursos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../recursos/css/style.css">
+
+    <title>Feria Virtual de Carreras</title>
+  </head>
+  <body class="bg-azul-claro">
+
+
+    <!--
+
+    *******************  Menú   *******************
+
+    -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-oscuro">
+      <a class="navbar-brand" href="../../">UADER <strong>FCyT</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Desplegar menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../../bienvenidos/">Bienvenidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../ingreso/">Ingreso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../carreras/">Carreras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../tutorias/">Tutorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../bienestar/">Bienestar Estudiantil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../museo/">Museo de Ciencias Naturales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://tourfcytuader.com/" target="_blank">Tour por la FCyT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../contacto/">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../ubicacion/">Ubicación</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- d-sm-flex 576 - d-md-flex 768 - d-lg-flex 990 - d-xl-flex 1200 -->
+
+    <section class="cuerpo">
+      <div class="container-md bg-light justify-content-center align-items-center text-center text-azul-medio py-5">
+        <h2 class="pt-3">Profesorado en Biología</h2>
+        <div class="card">
+          <div class="card-image">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.youtube.com/embed/5TMza-lNoiU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Video Institucional del Profesorado en Biología.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center text-center py-3">
+          <div class="col-md-4 p-2" data-toggle="modal" data-target="#perfil">
+            <a href="#">
+              <div class="inner">
+                <img src="../../recursos/img/icono-perfil.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+              </div>
+            </a>
+          </div>
+          <!-- The Modal -->
+          <div class="modal fade" id="perfil">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Perfil Profesional</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body text-justify">
+                  <p>El profesor en Biología que egresa tiene una sólida formación teórica práctica tanto en el campo de la ciencia como en el campo educativo. Es capaz de detectar la presencia de problemas en la enseñanza y aprendizaje de la Biología, que le permitan tomar decisiones teniendo en cuenta la metodología de abordaje de esta ciencia. Se desempeña en su quehacer docente de manera apropiada y creativa, teniendo en consideración las problemáticas ambientales actuales, realizando acciones que contribuyan al mejoramiento de la calidad de vida. Además, está preparado para continuar su formación en actividades de investigación y/o carreras de postgrado.</p>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-2" data-toggle="modal" data-target="#alcances">
+            <a href="#">
+              <div class="inner">
+                <img src="../../recursos/img/icono-alcances.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+              </div>
+            </a>
+          </div>
+          <!-- The Modal -->
+          <div class="modal fade" id="alcances">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Alcances del Título</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body text-justify">
+                  <ul>
+                    <li>Planificar, conducir y evaluar los procesos de enseñanza aprendizaje vinculados a las Ciencias Naturales en general y a la Biología en particular, tanto en la escuela secundaria como en el nivel Superior y en el Universitario.</li>
+                    <li>Asesorar en lo concerniente al proceso de enseñanza y aprendizaje en lo relacionado con el área de conocimiento específico.</li>
+                    <li>Participar en equipos de investigación del área epistemológica.</li>
+                    <li>Participar en equipos de investigación interdisciplinaria y educativa.</li>
+                  </ul>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-2" data-toggle="modal" data-target="#plan">
+            <a href="#">
+              <div class="inner">
+                <img src="../../recursos/img/icono-plan.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
+              </div>
+            </a>
+          </div>
+          <!-- The Modal -->
+          <div class="modal fade" id="plan">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Plan de Estudios</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body text-center">
+                  <table class="table table-hover">
+                  	<thead>
+                  		<tr>
+                  			<th>Código</th>
+                  			<th>Asignatura</th>
+                  			<th>Designación</th>
+                  			<th>Carga Horaria</th>
+                  			<th>Correlatividad</th>
+                  		</tr>
+                  	</thead>
+                  	<tbody>
+                  		<tr>
+                  			<td colspan="5"><b>Primer Año</b></td>
+                  		</tr>
+                  		<tr>
+                  			<td>407401</td>
+                  			<td>Matemática</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>96</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407102</td>
+                  			<td>Química General</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>96</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407103</td>
+                  			<td>Física General</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>96</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407104</td>
+                  			<td>Idioma Extranjero I</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>32</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407105</td>
+                  			<td>Física Biológica</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>80</td>
+                  			<td>101 - 103</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407106</td>
+                  			<td>Química Biológica</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>80</td>
+                  			<td>102</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407107</td>
+                  			<td>Educación Ambiental</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>48</td>
+                  			<td>102</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407108</td>
+                  			<td>Idioma Extranjero II</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>32</td>
+                  			<td>104</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407109</td>
+                  			<td>Epistemología</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>96</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407110</td>
+                  			<td>Principios de Biología</td>
+                  			<td>Anual</td>
+                  			<td>128</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407111</td>
+                  			<td>Lectura y Producción de Textos Científicos</td>
+                  			<td>Anual</td>
+                  			<td>96</td>
+                  			<td>Curso Introduct.</td>
+                  		</tr>
+                  		<tr>
+                  			<td colspan="5"><b>Segundo Año</b></td>
+                  		</tr>
+                  		<tr>
+                  			<td>407212</td>
+                  			<td>Geomorfología</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>128</td>
+                  			<td>102 - 105</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407213</td>
+                  			<td>Anatomía y Fisiología Vegetal</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>96</td>
+                  			<td>102 - 103 - 110</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407214</td>
+                  			<td>Pedagogía</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>48</td>
+                  			<td>109</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407215</td>
+                  			<td>Anatomía y Fisiología Animal</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>96</td>
+                  			<td>102 - 103 - 110</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407216</td>
+                  			<td>Introducción a la Bioestadística</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>48</td>
+                  			<td>101</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407217</td>
+                  			<td>Sociología de la Educación</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>214</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407218</td>
+                  			<td>Didáctica General</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>214</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407219</td>
+                  			<td>Biología Celular y Molecular</td>
+                  			<td>Anual</td>
+                  			<td>128</td>
+                  			<td>110</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407220</td>
+                  			<td>Anatomía y Fisiología Humana</td>
+                  			<td>Anual</td>
+                  			<td>192</td>
+                  			<td>110</td>
+                  		</tr>
+                  		<tr>
+                  			<td colspan="5"><b>Tercer Año</b></td>
+                  		</tr>
+                  		<tr>
+                  			<td>407321</td>
+                  			<td>Genética</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>80</td>
+                  			<td>215 - 219 - 220</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407322</td>
+                  			<td>Biología Vegetal I (No Vascular)</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>96</td>
+                  			<td>213</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407323</td>
+                  			<td>Biología Animal I (Invertebrados)</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>96</td>
+                  			<td>215</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407324</td>
+                  			<td>Didáctica de las Cs. Naturales</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>64</td>
+                  			<td>217 - 218</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407325</td>
+                  			<td>Psicología Educacional</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>80</td>
+                  			<td>217 - 218</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407326</td>
+                  			<td>Biología Vegetal II (Vascular)</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>96</td>
+                  			<td>322</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407327</td>
+                  			<td>Biología Animal II (Vertebrados)</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>96</td>
+                  			<td>323</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407328</td>
+                  			<td>Metodología de la Inv. Educativa</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>109 - 111</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407329</td>
+                  			<td>Práctica Docente I (EGB 3)</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>128</td>
+                  			<td>Aprobado 1º año y 212 - 215 - 219 - 324 y 325</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407330</td>
+                  			<td>Ecología General</td>
+                  			<td>Anual</td>
+                  			<td>192</td>
+                  			<td>212 - 215 - 219</td>
+                  		</tr>
+                  		<tr>
+                  			<td colspan="5"><b>Cuarto Año</b></td>
+                  		</tr>
+                  		<tr>
+                  			<td>407431</td>
+                  			<td>Evolución</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>96</td>
+                  			<td>326 327 - 330</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407432</td>
+                  			<td>Didáctica de la Biología</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>64</td>
+                  			<td>324</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407433</td>
+                  			<td>Política Educativa</td>
+                  			<td>Cuatrim. (C1)</td>
+                  			<td>64</td>
+                  			<td>325</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407434</td>
+                  			<td>Medio Ambiente y Salud</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>96</td>
+                  			<td>107 - 330</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407435</td>
+                  			<td>Análisis Institucional</td>
+                  			<td>Cuatrim. (C2)</td>
+                  			<td>64</td>
+                  			<td>433</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407436</td>
+                  			<td>Taller de la Inv. en la Enseñanza de la Biología</td>
+                  			<td>Anual</td>
+                  			<td>96</td>
+                  			<td>216 - 328</td>
+                  		</tr>
+                  		<tr>
+                  			<td>407437</td>
+                  			<td>Práctica Docente II (Polimodal y Superior)</td>
+                  			<td>Anual</td>
+                  			<td>256</td>
+                  			<td>Aprobado 1º y 2º año y 326 - 327 - 329 y 330</td>
+                  		</tr>
+                  	</tbody>
+                  </table>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!--
+
+    *******************  Footer   *******************
+
+    -->
+    <footer class="footer fixed-bottom">
+      <div class="container-fluid bg-azul-medio">
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col-sm-12 p-3">
+            <a href="http://fcytcdelu.uader.edu.ar/" target="_blank">
+              Facultad de Ciencia y Tecnología - Concepción del Uruguay
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../../recursos/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../recursos/js/popper.min.js"></script>
+    <script src="../../recursos/js/bootstrap.min.js"></script>
+  </body>
+</html>

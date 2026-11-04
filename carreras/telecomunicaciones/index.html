@@ -1,531 +1,460 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../../recursos/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../recursos/css/style.css">
-
-    <title>Feria Virtual de Carreras</title>
-  </head>
-  <body class="bg-azul-claro">
-
-
-    <!--
-
-    *******************  Menú   *******************
-
-    -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-oscuro">
-      <a class="navbar-brand" href="../../index.html">UADER <strong>FCyT</strong></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Desplegar menú de navegación">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="../../bienvenidos/index.html">Bienvenidos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../ingreso/index.html">Ingreso</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../carreras/index.html">Carreras</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../tutorias/index.html">Tutorías</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../bienestar/index.html">Bienestar Estudiantil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../museo/index.html">Museo de Ciencias Naturales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://tourfcytuader.com/" target="_blank">Tour por la FCyT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../contacto/index.html">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../ubicacion/index.html">Ubicación</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- d-sm-flex 576 - d-md-flex 768 - d-lg-flex 990 - d-xl-flex 1200 -->
-
-    <section class="cuerpo">
-      <div class="container-md bg-light justify-content-center align-items-center text-center text-azul-medio py-5">
-        <h2 class="pt-3">Ingeniería en Telecomunicaciones</h2>
-        <div class="card">
-          <div class="card-image">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.youtube.com/embed/-ne-soZO8Tk?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="card-body">
-            <p class="card-text">Video Institucional de la Ingeniería en Telecomunicaciones.</p>
-          </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ingeniería en Telecomunicaciones: perfil profesional, alcances del título y plan de estudios. FCyT UADER.">
+    <meta name="theme-color" content="#22315c">
+    <title>Ingeniería en Telecomunicaciones - Feria Virtual de Carreras FCyT</title>
+    <link rel="icon" type="image/png" href="../../recursos/img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../../recursos/img/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="../../recursos/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../recursos/css/feria.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="../../index.html">
+                <img src="../../recursos/img/logo-fcyt.png" alt="FCyT UADER - Sede Concepción del Uruguay" width="135" height="45">
+                <span class="brand-text"><strong>Feria Virtual</strong>de Carreras</span>
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
+                Menú
+            </button>
+            <nav class="site-nav" id="site-nav" aria-label="Secciones">
+                <ul>
+                    <li><a href="../../bienvenidos/index.html">Bienvenidos</a></li>
+                    <li><a href="../../ingreso/index.html">Ingreso</a></li>
+                    <li><a href="../../carreras/index.html" aria-current="page">Carreras</a></li>
+                    <li><a href="../../tutorias/index.html">Tutorías</a></li>
+                    <li><a href="../../bienestar/index.html">Bienestar</a></li>
+                    <li><a href="../../museo/index.html">Museo</a></li>
+                    <li><a href="../../contacto/index.html">Contacto</a></li>
+                    <li><a href="../../ubicacion/index.html">Ubicación</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <div class="row justify-content-center align-items-center text-center py-3">
-          <div class="col-md-4 p-2" data-toggle="modal" data-target="#perfil">
-            <a href="#">
-              <div class="inner">
-                <img src="../../recursos/img/icono-perfil.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <!-- The Modal -->
-          <div class="modal fade" id="perfil">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-              <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <h4 class="modal-title">Perfil Profesional</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <!-- Modal body -->
-                <div class="modal-body text-justify">
-                  <p>El Ingeniero en Telecomunicaciones, está capacitado para desempeñarse en empresas del sector público y privado en los ámbitos nacional e internacional, en el diseño, implementación e innovación en sistemas de comunicaciones. Puede administrar tecnologías, servicios y soluciones empresariales, por contar con una sólida formación sustentada en ciencias básicas y aplicadas, y una intensa formación práctica.</p>
-                </div>
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
-                </div>
-              </div>
+    <main>
+        <section class="hero hero-photo" style="background-image: url('../../recursos/img/slider-telecomunicaciones.jpg')">
+            <div class="container hero-inner">
+                <p class="breadcrumb"><a href="../../index.html">Inicio</a> / <a href="../index.html">Carreras</a></p>
+                <p class="eyebrow">Ingeniería</p>
+                <h1>Ingeniería en Telecomunicaciones</h1>
             </div>
-          </div>
-          <div class="col-md-4 p-2" data-toggle="modal" data-target="#alcances">
-            <a href="#">
-              <div class="inner">
-                <img src="../../recursos/img/icono-alcances.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <!-- The Modal -->
-          <div class="modal fade" id="alcances">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-              <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <h4 class="modal-title">Alcances del Título</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </section>
+
+        <section class="section">
+            <div class="container container-narrow stack">
+                <figure class="video">
+                    <div class="video-frame">
+                        <iframe src="https://www.youtube.com/embed/-ne-soZO8Tk?rel=0" title="Video Institucional de la Ingeniería en Telecomunicaciones." loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <figcaption>Video Institucional de la Ingeniería en Telecomunicaciones.</figcaption>
+                </figure>
+                <div>
+                    <details class="accordion" id="perfil" open>
+                        <summary>Perfil Profesional</summary>
+                        <div class="accordion-body prose">
+                            <p>El Ingeniero en Telecomunicaciones, está capacitado para desempeñarse en empresas del sector público y privado en los ámbitos nacional e internacional, en el diseño, implementación e innovación en sistemas de comunicaciones. Puede administrar tecnologías, servicios y soluciones empresariales, por contar con una sólida formación sustentada en ciencias básicas y aplicadas, y una intensa formación práctica.</p>
+                        </div>
+                    </details>
+                    <details class="accordion" id="alcances">
+                        <summary>Alcances del Título</summary>
+                        <div class="accordion-body prose">
+                            <p>Planificación, dirección, construcción, instalación, puesta en marcha, operación, ensayos, mediciones, mantenimiento, reparación, modificación, transformación e inspección de servicios y sistemas de telecomunicaciones. Estudios de factibilidad, control de calidad, certificación y evaluación. Diseños de marcos regulatorios, en todo lo relativo a:</p>
+                            <ul>
+                                <li>Servicios de telecomunicaciones.</li>
+                                <li>Servicios de radiocomunicaciones.</li>
+                                <li>Sistemas de telecomunicaciones para procesos y automatización industrial.</li>
+                                <li>Servicios telemáticos.</li>
+                                <li>Sistemas de sonido e imagen.</li>
+                                <li>Sistemas de recepción y transmisión, procesamiento y utilización de señales de comunicación en todas las frecuencias y potencias, audio, video, datos y otros tipos de señales.</li>
+                                <li>Radio determinación.</li>
+                                <li>Sistemas de ayuda a la navegación aérea, terrestre y marítima.</li>
+                            </ul>
+                            <p>Estudios, tareas y asesoramiento relacionados con:</p>
+                            <ul>
+                                <li>Asuntos de ingeniería legal, económica y financiera relacionados con los incisos anteriores.</li>
+                                <li>Arbitrajes, auditorías, pericias y tasaciones relacionados con los incisos anteriores.</li>
+                                <li>Higiene, seguridad industrial y contaminación ambiental relacionados con los incisos anteriores.</li>
+                            </ul>
+                        </div>
+                    </details>
+                    <details class="accordion" id="plan">
+                        <summary>Plan de Estudios</summary>
+                        <div class="accordion-body prose">
+                            <div class="table-wrap"><table>
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Asignatura</th>
+                                    <th>Designación</th>
+                                    <th>Carga Horaria</th>
+                                    <th>Correlatividad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="5"><b>Primer Año</b></td>
+                                </tr>
+                                <tr>
+                                    <td>437101</td>
+                                    <td>Análisis Matemático I</td>
+                                    <td rowspan="5">Cuatrim. (C1)</td>
+                                    <td>96</td>
+                                    <td rowspan="8">-</td>
+                                </tr>
+                                <tr>
+                                    <td>437102</td>
+                                    <td>Física I</td>
+                                    <td>80</td>
+                                </tr>
+                                <tr>
+                                    <td>437103</td>
+                                    <td>Derechos Humanos y Tecnología</td>
+                                    <td>48</td>
+                                </tr>
+                                <tr>
+                                    <td>437104</td>
+                                    <td>Fundamentos de Informática</td>
+                                    <td>32</td>
+                                </tr>
+                                <tr>
+                                    <td>437105</td>
+                                    <td>Fundamentos de Programación</td>
+                                    <td>48</td>
+                                </tr>
+                                <tr>
+                                    <td>437106</td>
+                                    <td>Álgebra</td>
+                                    <td rowspan="5">Cuatrim. (C2)</td>
+                                    <td>96</td>
+                                </tr>
+                                <tr>
+                                    <td>437107</td>
+                                    <td>Sistemas de Representación</td>
+                                    <td>48</td>
+                                </tr>
+                                <tr>
+                                    <td>437108</td>
+                                    <td>Química</td>
+                                    <td>64</td>
+                                </tr>
+                                <tr>
+                                    <td>437109</td>
+                                    <td>Metodologías de Programación</td>
+                                    <td rowspan="2">48</td>
+                                    <td>105</td>
+                                </tr>
+                                <tr>
+                                    <td>437110</td>
+                                    <td>Inglés I</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5"><b>Segundo Año</b></td>
+                                </tr>
+                                <tr>
+                                    <td>437211</td>
+                                    <td>Análisis Matemático II</td>
+                                    <td rowspan="5">Cuatrim. (C1)</td>
+                                    <td rowspan="3">96</td>
+                                    <td>101</td>
+                                </tr>
+                                <tr>
+                                    <td>437212</td>
+                                    <td>Física II</td>
+                                    <td>101 - 102</td>
+                                </tr>
+                                <tr>
+                                    <td>437213</td>
+                                    <td>Sistemas Digitales</td>
+                                    <td>101</td>
+                                </tr>
+                                <tr>
+                                    <td>437214</td>
+                                    <td>Inglés II</td>
+                                    <td rowspan="2">48</td>
+                                    <td>110</td>
+                                </tr>
+                                <tr>
+                                    <td>437215</td>
+                                    <td>Arquitectura de Computadoras</td>
+                                    <td>104</td>
+                                </tr>
+                                <tr>
+                                    <td>437216</td>
+                                    <td>Electrónica Básica</td>
+                                    <td rowspan="5">Cuatrim. (C2)</td>
+                                    <td>96</td>
+                                    <td>101 - 108</td>
+                                </tr>
+                                <tr>
+                                    <td>437217</td>
+                                    <td>Teoría de Circuitos</td>
+                                    <td>80</td>
+                                    <td>101 - 212</td>
+                                </tr>
+                                <tr>
+                                    <td>437218</td>
+                                    <td>Microprocesadores y Microcontroladores</td>
+                                    <td>96</td>
+                                    <td>213</td>
+                                </tr>
+                                <tr>
+                                    <td>437219</td>
+                                    <td>Instrumentos y Mediciones</td>
+                                    <td>64</td>
+                                    <td>212</td>
+                                </tr>
+                                <tr>
+                                    <td>437220</td>
+                                    <td>Probabilidades y Procesos Aleatorios</td>
+                                    <td>48</td>
+                                    <td>101</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5"><b>Tercer Año</b></td>
+                                </tr>
+                                <tr>
+                                    <td>437321</td>
+                                    <td>Cálculo Superior</td>
+                                    <td rowspan="5">Cuatrim. (C1)</td>
+                                    <td>96</td>
+                                    <td>106 - 211</td>
+                                </tr>
+                                <tr>
+                                    <td>437322</td>
+                                    <td>Campos y Ondas</td>
+                                    <td>64</td>
+                                    <td>211 - 212</td>
+                                </tr>
+                                <tr>
+                                    <td>437323</td>
+                                    <td>Análisis de Circuitos</td>
+                                    <td>80</td>
+                                    <td>217</td>
+                                </tr>
+                                <tr>
+                                    <td>437324</td>
+                                    <td>Sistemas Operativos</td>
+                                    <td>48</td>
+                                    <td>109 - 215</td>
+                                </tr>
+                                <tr>
+                                    <td>437325</td>
+                                    <td>Electrónica de Comunicaciones</td>
+                                    <td rowspan="3">96</td>
+                                    <td>216</td>
+                                </tr>
+                                <tr>
+                                    <td>437326</td>
+                                    <td>Señales y Sistemas</td>
+                                    <td rowspan="5">Cuatrim. (C2)</td>
+                                    <td>321</td>
+                                </tr>
+                                <tr>
+                                    <td>437327</td>
+                                    <td>Transmisión y Propagación de Ondas</td>
+                                    <td>322</td>
+                                </tr>
+                                <tr>
+                                    <td>437328</td>
+                                    <td>Instrumentos y Mediciones en Telecomunicaciones</td>
+                                    <td>64</td>
+                                    <td>219</td>
+                                </tr>
+                                <tr>
+                                    <td>437329</td>
+                                    <td>Bases de Datos</td>
+                                    <td>48</td>
+                                    <td>109 - 215</td>
+                                </tr>
+                                <tr>
+                                    <td>437330</td>
+                                    <td>Teoría de la Comunicación</td>
+                                    <td>96</td>
+                                    <td>211 - 220</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5"><b>Cuarto Año</b></td>
+                                </tr>
+                                <tr>
+                                    <td>437431</td>
+                                    <td>Procesamiento de Señales</td>
+                                    <td rowspan="5">Cuatrim. (C2)</td>
+                                    <td>96</td>
+                                    <td>326</td>
+                                </tr>
+                                <tr>
+                                    <td>437432</td>
+                                    <td>Ingeniería del Software</td>
+                                    <td rowspan="2">80</td>
+                                    <td>109 - 219</td>
+                                </tr>
+                                <tr>
+                                    <td>437433</td>
+                                    <td>Sistemas de Sonido e Imagen</td>
+                                    <td rowspan="2">322 - 325</td>
+                                </tr>
+                                <tr>
+                                    <td>437434</td>
+                                    <td>Comunicaciones Ópticas y Satelitales</td>
+                                    <td>96</td>
+                                </tr>
+                                <tr>
+                                    <td>437435</td>
+                                    <td>Ingeniería Legal</td>
+                                    <td>48</td>
+                                    <td>103</td>
+                                </tr>
+                                <tr>
+                                    <td>437436</td>
+                                    <td>Comunicaciones Móviles</td>
+                                    <td rowspan="5">Cuatrim. (C2)</td>
+                                    <td>80</td>
+                                    <td rowspan="2">327 - 330</td>
+                                </tr>
+                                <tr>
+                                    <td>437437</td>
+                                    <td>Telecomunicaciones y Redes</td>
+                                    <td rowspan="3">96</td>
+                                </tr>
+                                <tr>
+                                    <td>437438</td>
+                                    <td>Redes de Datos</td>
+                                    <td>219 - 327 - 330</td>
+                                </tr>
+                                <tr>
+                                    <td>437439</td>
+                                    <td>Diseño de Sistemas Digitales</td>
+                                    <td>109 - 218</td>
+                                </tr>
+                                <tr>
+                                    <td>437440</td>
+                                    <td>Optativa I</td>
+                                    <td>48</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5"><b>Quinto Año</b></td>
+                                </tr>
+                                <tr>
+                                    <td>437541</td>
+                                    <td>Laboratorio de Interconexión de Redes</td>
+                                    <td rowspan="4">Cuatrim. (C1)</td>
+                                    <td rowspan="2">96</td>
+                                    <td>438</td>
+                                </tr>
+                                <tr>
+                                    <td>437542</td>
+                                    <td>Desarrollo de Aplicaciones Distribuidas</td>
+                                    <td>329 - 432</td>
+                                </tr>
+                                <tr>
+                                    <td>437543</td>
+                                    <td>Servicios de Telecomunicaciones y Redes</td>
+                                    <td>80</td>
+                                    <td>437 - 438</td>
+                                </tr>
+                                <tr>
+                                    <td>437544</td>
+                                    <td>Higiene, Seguridad y Medioambiente</td>
+                                    <td>48</td>
+                                    <td>435</td>
+                                </tr>
+                                <tr>
+                                    <td>437545</td>
+                                    <td>Proyecto Final</td>
+                                    <td>Anual</td>
+                                    <td rowspan="2">64</td>
+                                    <td>de 431 a 440</td>
+                                </tr>
+                                <tr>
+                                    <td>437546</td>
+                                    <td>Economía y Mercados Tecnológicos</td>
+                                    <td rowspan="5">Cuatrim. (C2)</td>
+                                    <td>435</td>
+                                </tr>
+                                <tr>
+                                    <td>437547</td>
+                                    <td>Metodología de la Investigación</td>
+                                    <td>48</td>
+                                    <td>103 - 433 - 434 - 436 a 438</td>
+                                </tr>
+                                <tr>
+                                    <td>437548</td>
+                                    <td>Diseño de Redes y Sistemas de Telecomunicaciones</td>
+                                    <td>96</td>
+                                    <td>431 - 434 - 436 a 439</td>
+                                </tr>
+                                <tr>
+                                    <td>437549</td>
+                                    <td>Administración y Gestión de Organizaciones</td>
+                                    <td>64</td>
+                                    <td>435</td>
+                                </tr>
+                                <tr>
+                                    <td>437550</td>
+                                    <td>Optativa II</td>
+                                    <td>48</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">Práctica Profesional Supervisada</td>
+                                    <td>200</td>
+                                    <td>4º año aprobado</td>
+                                </tr>
+                            </tbody>
+                            </table></div>
+                        </div>
+                    </details>
                 </div>
-
-                <!-- Modal body -->
-                <div class="modal-body text-justify">
-                  <p>Planificación, dirección, construcción, instalación, puesta en marcha, operación, ensayos, mediciones, mantenimiento, reparación, modificación, transformación e inspección de servicios y sistemas de telecomunicaciones. Estudios de factibilidad, control de calidad, certificación y evaluación. Diseños de marcos regulatorios, en todo lo relativo a:</p>
-
-                  <ul>
-                  	<li>Servicios de telecomunicaciones.</li>
-                  	<li>Servicios de radiocomunicaciones.</li>
-                  	<li>Sistemas de telecomunicaciones para procesos y automatización industrial.</li>
-                  	<li>Servicios telemáticos.</li>
-                  	<li>Sistemas de sonido e imagen.</li>
-                  	<li>Sistemas de recepción y transmisión, procesamiento y utilización de señales de comunicación en todas las frecuencias y potencias, audio, video, datos y otros tipos de señales.</li>
-                  	<li>Radio determinación.</li>
-                  	<li>Sistemas de ayuda a la navegación aérea, terrestre y marítima.</li>
-                  </ul>
-
-                  <p>Estudios, tareas y asesoramiento relacionados con:</p>
-
-                  <ul>
-                  	<li>Asuntos de ingeniería legal, económica y financiera relacionados con los incisos anteriores.</li>
-                  	<li>Arbitrajes, auditorías, pericias y tasaciones relacionados con los incisos anteriores.</li>
-                  	<li>Higiene, seguridad industrial y contaminación ambiental relacionados con los incisos anteriores.</li>
-                  </ul>
-                </div>
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
-                </div>
-              </div>
             </div>
-          </div>
+        </section>
 
-          <div class="col-md-4 p-2" data-toggle="modal" data-target="#plan">
-            <a href="#">
-              <div class="inner">
-                <img src="../../recursos/img/icono-plan.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <!-- The Modal -->
-          <div class="modal fade" id="plan">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-              <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <h4 class="modal-title">Plan de Estudios</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <section class="section section-alt">
+            <div class="container container-narrow">
+                <h2 class="section-title">Otras carreras</h2>
+                <div class="chips">
+                    <a href="../automatizacion/index.html">Licenciatura en Automatización y Control de Procesos Industriales</a>
+                    <a href="../sistemas/index.html">Licenciatura en Sistemas de Información</a>
+                    <a href="../biologia/index.html">Profesorado en Biología</a>
+                    <a href="../fisica/index.html">Profesorado en Física</a>
+                    <a href="../matematica/index.html">Profesorado en Matemática</a>
+                    <a href="../quimica/index.html">Profesorado en Química</a>
                 </div>
-
-                <!-- Modal body -->
-                <div class="modal-body text-center">
-                  <table class="table table-hover">
-                    <thead>
-                      <tr>
-                        <th>Código</th>
-                        <th>Asignatura</th>
-                        <th>Designación</th>
-                        <th>Carga Horaria</th>
-                        <th>Correlatividad</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td colspan="5"><b>Primer Año</b></td>
-                      </tr>
-                      <tr>
-                        <td>437101</td>
-                        <td>Análisis Matemático I</td>
-                        <td rowspan="5">Cuatrim. (C1)</td>
-                        <td>96</td>
-                        <td rowspan="8">-</td>
-                      </tr>
-                      <tr>
-                        <td>437102</td>
-                        <td>Física I</td>
-                        <td>80</td>
-                      </tr>
-                      <tr>
-                        <td>437103</td>
-                        <td>Derechos Humanos y Tecnología</td>
-                        <td>48</td>
-                      </tr>
-                      <tr>
-                        <td>437104</td>
-                        <td>Fundamentos de Informática</td>
-                        <td>32</td>
-                      </tr>
-                      <tr>
-                        <td>437105</td>
-                        <td>Fundamentos de Programación</td>
-                        <td>48</td>
-                      </tr>
-                      <tr>
-                        <td>437106</td>
-                        <td>Álgebra</td>
-                        <td rowspan="5">Cuatrim. (C2)</td>
-                        <td>96</td>
-                      </tr>
-                      <tr>
-                        <td>437107</td>
-                        <td>Sistemas de Representación</td>
-                        <td>48</td>
-                      </tr>
-                      <tr>
-                        <td>437108</td>
-                        <td>Química</td>
-                        <td>64</td>
-                      </tr>
-                      <tr>
-                        <td>437109</td>
-                        <td>Metodologías de Programación</td>
-                        <td rowspan="2">48</td>
-                        <td>105</td>
-                      </tr>
-                      <tr>
-                        <td>437110</td>
-                        <td>Inglés I</td>
-                        <td>-</td>
-                      </tr>
-                      <tr>
-                        <td colspan="5"><b>Segundo Año</b></td>
-                      </tr>
-                      <tr>
-                        <td>437211</td>
-                        <td>Análisis Matemático II</td>
-                        <td rowspan="5">Cuatrim. (C1)</td>
-                        <td rowspan="3">96</td>
-                        <td>101</td>
-                      </tr>
-                      <tr>
-                        <td>437212</td>
-                        <td>Física II</td>
-                        <td>101 - 102</td>
-                      </tr>
-                      <tr>
-                        <td>437213</td>
-                        <td>Sistemas Digitales</td>
-                        <td>101</td>
-                      </tr>
-                      <tr>
-                        <td>437214</td>
-                        <td>Inglés II</td>
-                        <td rowspan="2">48</td>
-                        <td>110</td>
-                      </tr>
-                      <tr>
-                        <td>437215</td>
-                        <td>Arquitectura de Computadoras</td>
-                        <td>104</td>
-                      </tr>
-                      <tr>
-                        <td>437216</td>
-                        <td>Electrónica Básica</td>
-                        <td rowspan="5">Cuatrim. (C2)</td>
-                        <td>96</td>
-                        <td>101 - 108</td>
-                      </tr>
-                      <tr>
-                        <td>437217</td>
-                        <td>Teoría de Circuitos</td>
-                        <td>80</td>
-                        <td>101 - 212</td>
-                      </tr>
-                      <tr>
-                        <td>437218</td>
-                        <td>Microprocesadores y Microcontroladores</td>
-                        <td>96</td>
-                        <td>213</td>
-                      </tr>
-                      <tr>
-                        <td>437219</td>
-                        <td>Instrumentos y Mediciones</td>
-                        <td>64</td>
-                        <td>212</td>
-                      </tr>
-                      <tr>
-                        <td>437220</td>
-                        <td>Probabilidades y Procesos Aleatorios</td>
-                        <td>48</td>
-                        <td>101</td>
-                      </tr>
-                      <tr>
-                        <td colspan="5"><b>Tercer Año</b></td>
-                      </tr>
-                      <tr>
-                        <td>437321</td>
-                        <td>Cálculo Superior</td>
-                        <td rowspan="5">Cuatrim. (C1)</td>
-                        <td>96</td>
-                        <td>106 - 211</td>
-                      </tr>
-                      <tr>
-                        <td>437322</td>
-                        <td>Campos y Ondas</td>
-                        <td>64</td>
-                        <td>211 - 212</td>
-                      </tr>
-                      <tr>
-                        <td>437323</td>
-                        <td>Análisis de Circuitos</td>
-                        <td>80</td>
-                        <td>217</td>
-                      </tr>
-                      <tr>
-                        <td>437324</td>
-                        <td>Sistemas Operativos</td>
-                        <td>48</td>
-                        <td>109 - 215</td>
-                      </tr>
-                      <tr>
-                        <td>437325</td>
-                        <td>Electrónica de Comunicaciones</td>
-                        <td rowspan="3">96</td>
-                        <td>216</td>
-                      </tr>
-                      <tr>
-                        <td>437326</td>
-                        <td>Señales y Sistemas</td>
-                        <td rowspan="5">Cuatrim. (C2)</td>
-                        <td>321</td>
-                      </tr>
-                      <tr>
-                        <td>437327</td>
-                        <td>Transmisión y Propagación de Ondas</td>
-                        <td>322</td>
-                      </tr>
-                      <tr>
-                        <td>437328</td>
-                        <td>Instrumentos y Mediciones en Telecomunicaciones</td>
-                        <td>64</td>
-                        <td>219</td>
-                      </tr>
-                      <tr>
-                        <td>437329</td>
-                        <td>Bases de Datos</td>
-                        <td>48</td>
-                        <td>109 - 215</td>
-                      </tr>
-                      <tr>
-                        <td>437330</td>
-                        <td>Teoría de la Comunicación</td>
-                        <td>96</td>
-                        <td>211 - 220</td>
-                      </tr>
-                      <tr>
-                        <td colspan="5"><b>Cuarto Año</b></td>
-                      </tr>
-                      <tr>
-                        <td>437431</td>
-                        <td>Procesamiento de Señales</td>
-                        <td rowspan="5">Cuatrim. (C2)</td>
-                        <td>96</td>
-                        <td>326</td>
-                      </tr>
-                      <tr>
-                        <td>437432</td>
-                        <td>Ingeniería del Software</td>
-                        <td rowspan="2">80</td>
-                        <td>109 - 219</td>
-                      </tr>
-                      <tr>
-                        <td>437433</td>
-                        <td>Sistemas de Sonido e Imagen</td>
-                        <td rowspan="2">322 - 325</td>
-                      </tr>
-                      <tr>
-                        <td>437434</td>
-                        <td>Comunicaciones Ópticas y Satelitales</td>
-                        <td>96</td>
-                      </tr>
-                      <tr>
-                        <td>437435</td>
-                        <td>Ingeniería Legal</td>
-                        <td>48</td>
-                        <td>103</td>
-                      </tr>
-                      <tr>
-                        <td>437436</td>
-                        <td>Comunicaciones Móviles</td>
-                        <td rowspan="5">Cuatrim. (C2)</td>
-                        <td>80</td>
-                        <td rowspan="2">327 - 330</td>
-                      </tr>
-                      <tr>
-                        <td>437437</td>
-                        <td>Telecomunicaciones y Redes</td>
-                        <td rowspan="3">96</td>
-                      </tr>
-                      <tr>
-                        <td>437438</td>
-                        <td>Redes de Datos</td>
-                        <td>219 - 327 - 330</td>
-                      </tr>
-                      <tr>
-                        <td>437439</td>
-                        <td>Diseño de Sistemas Digitales</td>
-                        <td>109 - 218</td>
-                      </tr>
-                      <tr>
-                        <td>437440</td>
-                        <td>Optativa I</td>
-                        <td>48</td>
-                        <td>&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td colspan="5"><b>Quinto Año</b></td>
-                      </tr>
-                      <tr>
-                        <td>437541</td>
-                        <td>Laboratorio de Interconexión de Redes</td>
-                        <td rowspan="4">Cuatrim. (C1)</td>
-                        <td rowspan="2">96</td>
-                        <td>438</td>
-                      </tr>
-                      <tr>
-                        <td>437542</td>
-                        <td>Desarrollo de Aplicaciones Distribuidas</td>
-                        <td>329 - 432</td>
-                      </tr>
-                      <tr>
-                        <td>437543</td>
-                        <td>Servicios de Telecomunicaciones y Redes</td>
-                        <td>80</td>
-                        <td>437 - 438</td>
-                      </tr>
-                      <tr>
-                        <td>437544</td>
-                        <td>Higiene, Seguridad y Medioambiente</td>
-                        <td>48</td>
-                        <td>435</td>
-                      </tr>
-                      <tr>
-                        <td>437545</td>
-                        <td>Proyecto Final</td>
-                        <td>Anual</td>
-                        <td rowspan="2">64</td>
-                        <td>de 431 a 440</td>
-                      </tr>
-                      <tr>
-                        <td>437546</td>
-                        <td>Economía y Mercados Tecnológicos</td>
-                        <td rowspan="5">Cuatrim. (C2)</td>
-                        <td>435</td>
-                      </tr>
-                      <tr>
-                        <td>437547</td>
-                        <td>Metodología de la Investigación</td>
-                        <td>48</td>
-                        <td>103 - 433 - 434 - 436 a 438</td>
-                      </tr>
-                      <tr>
-                        <td>437548</td>
-                        <td>Diseño de Redes y Sistemas de Telecomunicaciones</td>
-                        <td>96</td>
-                        <td>431 - 434 - 436 a 439</td>
-                      </tr>
-                      <tr>
-                        <td>437549</td>
-                        <td>Administración y Gestión de Organizaciones</td>
-                        <td>64</td>
-                        <td>435</td>
-                      </tr>
-                      <tr>
-                        <td>437550</td>
-                        <td>Optativa II</td>
-                        <td>48</td>
-                        <td>&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td colspan="3">Práctica Profesional Supervisada</td>
-                        <td>200</td>
-                        <td>4º año aprobado</td>
-                      </tr>
-                    </tbody>
-                    </table>
-                </div>
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
-                </div>
-              </div>
             </div>
-          </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h2 class="footer-title">Facultad de Ciencia y Tecnología</h2>
+                    <p>Sede Concepción del Uruguay<br>25 de Mayo 385 - CP: 3260<br>Concepción del Uruguay - Entre Ríos - Argentina</p>
+                    <p><a href="http://fcytcdelu.uader.edu.ar/" target="_blank" rel="noopener">Facultad de Ciencia y Tecnología - Concepción del Uruguay</a></p>
+                </div>
+                <div>
+                    <h2 class="footer-title">Seguinos</h2>
+                    <div class="social">
+                        <a href="https://www.facebook.com/uaderfcytcdelu" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4 1.7-4 4.3V10H7v4h3v8h4v-8h3l.5-4H14V8.6c0-.4.2-.6.6-.6z"/></svg></a>
+                        <a href="https://www.instagram.com/fcyt_uader_cdelu/?hl=es-la" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.5 5.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
+                        <a href="https://www.youtube.com/channel/UCb4RLTZlFFZOWdcR7ZpokFQ" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">FCyT - UADER · Sede Concepción del Uruguay</p>
         </div>
-      </div>
-    </section>
-
-    <!--
-
-    *******************  Footer   *******************
-
-    -->
-    <footer class="footer fixed-bottom">
-      <div class="container-fluid bg-azul-medio">
-        <div class="row justify-content-center align-items-center text-center">
-          <div class="col-sm-12 p-3">
-            <a href="http://fcytcdelu.uader.edu.ar/" target="_blank">
-              Facultad de Ciencia y Tecnología - Concepción del Uruguay
-            </a>
-          </div>
-        </div>
-      </div>
     </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../../recursos/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="../../recursos/js/popper.min.js"></script>
-    <script src="../../recursos/js/bootstrap.min.js"></script>
-  </body>
+    <script src="../../recursos/js/menu.js"></script>
+</body>
 </html>

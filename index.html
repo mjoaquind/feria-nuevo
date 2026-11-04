@@ -1,243 +1,216 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="recursos/css/bootstrap.min.css">
-    <link rel="stylesheet" href="recursos/css/style.css">
-
-    <title>Feria Virtual de Carreras</title>
-  </head>
-  <body class="bg-azul-claro">
-
-
-    <!--
-
-    *******************  Menú   *******************
-
-    -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-oscuro">
-      <a class="navbar-brand" href="./index.html">UADER <strong>FCyT</strong></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Desplegar menú de navegación">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="./bienvenidos/index.html">Bienvenidos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./ingreso/index.html">Ingreso</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./carreras/index.html">Carreras</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./tutorias/index.html">Tutorías</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./bienestar/index.html">Bienestar Estudiantil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./museo/index.html">Museo de Ciencias Naturales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://tourfcytuader.com/" target="_blank">Tour por la FCyT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacto/index.html">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./ubicacion/index.html">Ubicación</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- d-sm-flex 576 - d-md-flex 768 - d-lg-flex 990 - d-xl-flex 1200 -->
-
-    <section class="title pt-5 text-center text-light">
-      <h1 class="pt-3">Feria Virtual de Carreras</h1>
-    </section>
-
-    <!--
-
-    *******************  Carousel   *******************
-
-    -->
-    <section class="slider">
-      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-          <!--<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>-->
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="recursos/img/slider-portada.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="recursos/img/slider-telecomunicaciones.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="recursos/img/slider-automatizacion.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="recursos/img/slider-sistemas.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="recursos/img/slider-biologia.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="recursos/img/slider-fisica.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="recursos/img/slider-matematica.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="recursos/img/slider-quimica.jpg" class="d-block w-100" alt="...">
-          </div>
-          <!--<div class="carousel-item">
-            <img src="recursos/img/banner-inscripcion.jpg" class="d-block w-100" alt="...">
-          </div>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Feria Virtual de Carreras de la Facultad de Ciencia y Tecnología - UADER, Sede Concepción del Uruguay.">
+    <meta name="theme-color" content="#22315c">
+    <title>Feria Virtual de Carreras - FCyT UADER</title>
+    <link rel="icon" type="image/png" href="recursos/img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="recursos/img/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="recursos/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="recursos/css/feria.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">
+                <img src="recursos/img/logo-fcyt.png" alt="FCyT UADER - Sede Concepción del Uruguay" width="135" height="45">
+                <span class="brand-text"><strong>Feria Virtual</strong>de Carreras</span>
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
+                Menú
+            </button>
+            <nav class="site-nav" id="site-nav" aria-label="Secciones">
+                <ul>
+                    <li><a href="bienvenidos/index.html">Bienvenidos</a></li>
+                    <li><a href="ingreso/index.html">Ingreso</a></li>
+                    <li><a href="carreras/index.html">Carreras</a></li>
+                    <li><a href="tutorias/index.html">Tutorías</a></li>
+                    <li><a href="bienestar/index.html">Bienestar</a></li>
+                    <li><a href="museo/index.html">Museo</a></li>
+                    <li><a href="contacto/index.html">Contacto</a></li>
+                    <li><a href="ubicacion/index.html">Ubicación</a></li>
+                </ul>
+            </nav>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </section>
+    </header>
 
-
-
-    <!--
-
-    *******************  Container   *******************
-
-    -->
-    <section class="cuerpo">
-      <div class="container-md bg-white justify-content-center align-items-center text-center text-azul-medio py-3">
-        <div class="card bg-light">
-          <!--<div class="card-image">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://drive.google.com/file/d/1WvxjRi1LrV0TIXv0VIY0oX_zTYTzstVr/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <main>
+        <section class="hero hero-photo hero-home" style="background-image: url('./recursos/img/banner-bienvenidos.jpg')">
+            <div class="container hero-inner">
+                <p class="eyebrow">FCyT UADER · Sede Concepción del Uruguay</p>
+                <h1>Feria Virtual de Carreras</h1>
+                <p class="hero-lead">Viví la Ciencia y la Tecnología en la FCyT</p>
+                <div class="hero-actions">
+                    <a class="btn btn-light" href="./carreras/index.html">Conocé las carreras</a>
+                    <a class="btn btn-ghost" href="recursos/pdf/carreras.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg> Folleto de carreras</a>
+                </div>
             </div>
-          </div>-->
-          <h4 class="card-title pt-2">Viví la Ciencia y la Tecnología en la FCyT</h4>
-          <div class="card-body text-justify">
-            <p>La Sede Concepción del Uruguay de la Facultad de Ciencia y Tecnología-UADER, impulsa mediante su Feria de Carreras Virtual, la incorporación de nuevas formas de acceso y comunicación de información, vinculadas a la propuesta académica de Carreras de Grado de nuestra Sede.</p>
-            <p>Esta iniciativa virtual nos posibilita abrir las puertas de nuestra institución, al territorio de la región, acercando a aquellos que deseen iniciar su Educación Superior Universitaria.</p>
-            <p>Este espacio contempla la información necesaria para los futuros ingresantes, sin limitaciones geográficas. </p>
-            <p>Los invitamos a iniciar el recorrido por el mundo universitario!!!</p>
-	    <p><a href="recursos/pdf/carreras.pdf" target="_blank">Descargar folleto de nuestras carreras.</a></p>
-          </div>
+        </section>
+
+        <section class="section">
+            <div class="container container-narrow">
+                <h2 class="section-title">Viví la Ciencia y la Tecnología en la FCyT</h2>
+                <div class="prose">
+                    <p>La Sede Concepción del Uruguay de la Facultad de Ciencia y Tecnología-UADER, impulsa mediante su Feria de Carreras Virtual, la incorporación de nuevas formas de acceso y comunicación de información, vinculadas a la propuesta académica de Carreras de Grado de nuestra Sede.</p>
+                    <p>Esta iniciativa virtual nos posibilita abrir las puertas de nuestra institución, al territorio de la región, acercando a aquellos que deseen iniciar su Educación Superior Universitaria.</p>
+                    <p>Este espacio contempla la información necesaria para los futuros ingresantes, sin limitaciones geográficas. </p>
+                    <p>Los invitamos a iniciar el recorrido por el mundo universitario!!!</p>
+                    <p><a href="recursos/pdf/carreras.pdf" target="_blank" rel="noopener">Descargar folleto de nuestras carreras.</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Recorré la feria</h2>
+                <p class="section-intro">Todo lo que necesitás saber para empezar tu carrera en la FCyT.</p>
+                <div class="grid grid-3">
+                    <a class="nav-card" href="./bienvenidos/index.html">
+                        <span class="nav-card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></span>
+                        <span>
+                            <span class="nav-card-title">Bienvenidos</span>
+                            <span class="nav-card-text">Videos de bienvenida a la vida universitaria.</span>
+                        </span>
+                    </a>
+                    <a class="nav-card" href="./ingreso/index.html">
+                        <span class="nav-card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 7 9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"/></svg></span>
+                        <span>
+                            <span class="nav-card-title">Ingreso</span>
+                            <span class="nav-card-text">Curso de ingreso, documentación y preinscripción.</span>
+                        </span>
+                    </a>
+                    <a class="nav-card" href="./carreras/index.html">
+                        <span class="nav-card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></span>
+                        <span>
+                            <span class="nav-card-title">Carreras</span>
+                            <span class="nav-card-text">Conocé las carreras de grado de la Sede.</span>
+                        </span>
+                    </a>
+                    <a class="nav-card" href="./tutorias/index.html">
+                        <span class="nav-card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></span>
+                        <span>
+                            <span class="nav-card-title">Tutorías</span>
+                            <span class="nav-card-text">Acompañamiento académico y motivacional.</span>
+                        </span>
+                    </a>
+                    <a class="nav-card" href="./bienestar/index.html">
+                        <span class="nav-card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></span>
+                        <span>
+                            <span class="nav-card-title">Bienestar Estudiantil</span>
+                            <span class="nav-card-text">Becas y beneficios para estudiantes.</span>
+                        </span>
+                    </a>
+                    <a class="nav-card" href="./museo/index.html">
+                        <span class="nav-card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v7h3v-7H4zm6 0v7h3v-7h-3zM2 22h19v-3H2v3zm14-12v7h3v-7h-3zm-4.5-9L2 6v2h19V6l-9.5-5z"/></svg></span>
+                        <span>
+                            <span class="nav-card-title">Museo de Ciencias Naturales</span>
+                            <span class="nav-card-text">Un espacio de ciencia abierto a la comunidad.</span>
+                        </span>
+                    </a>
+                    <a class="nav-card" href="./contacto/index.html">
+                        <span class="nav-card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg></span>
+                        <span>
+                            <span class="nav-card-title">Contacto</span>
+                            <span class="nav-card-text">Redes sociales, correos y teléfono.</span>
+                        </span>
+                    </a>
+                    <a class="nav-card" href="./ubicacion/index.html">
+                        <span class="nav-card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg></span>
+                        <span>
+                            <span class="nav-card-title">Ubicación</span>
+                            <span class="nav-card-text">Cómo llegar a la facultad.</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Nuestras carreras de grado</h2>
+                <p class="section-intro">Elegí una carrera para ver su video, perfil profesional, alcances y plan de estudios.</p>
+                <div class="grid grid-3">
+                    <a class="career-card" href="./carreras/telecomunicaciones/index.html">
+                        <span class="career-card-media"><img src="./recursos/img/slider-telecomunicaciones.jpg" alt="" loading="lazy"></span>
+                        <span class="career-card-body">
+                            <span class="tag">Ingeniería</span>
+                            <span class="career-card-title">Ingeniería en Telecomunicaciones</span>
+                        </span>
+                    </a>
+                    <a class="career-card" href="./carreras/automatizacion/index.html">
+                        <span class="career-card-media"><img src="./recursos/img/slider-automatizacion.jpg" alt="" loading="lazy"></span>
+                        <span class="career-card-body">
+                            <span class="tag">Licenciatura</span>
+                            <span class="career-card-title">Licenciatura en Automatización y Control de Procesos Industriales</span>
+                        </span>
+                    </a>
+                    <a class="career-card" href="./carreras/sistemas/index.html">
+                        <span class="career-card-media"><img src="./recursos/img/slider-sistemas.jpg" alt="" loading="lazy"></span>
+                        <span class="career-card-body">
+                            <span class="tag">Licenciatura</span>
+                            <span class="career-card-title">Licenciatura en Sistemas de Información</span>
+                        </span>
+                    </a>
+                    <a class="career-card" href="./carreras/biologia/index.html">
+                        <span class="career-card-media"><img src="./recursos/img/slider-biologia.jpg" alt="" loading="lazy"></span>
+                        <span class="career-card-body">
+                            <span class="tag">Profesorado</span>
+                            <span class="career-card-title">Profesorado en Biología</span>
+                        </span>
+                    </a>
+                    <a class="career-card" href="./carreras/fisica/index.html">
+                        <span class="career-card-media"><img src="./recursos/img/slider-fisica.jpg" alt="" loading="lazy"></span>
+                        <span class="career-card-body">
+                            <span class="tag">Profesorado</span>
+                            <span class="career-card-title">Profesorado en Física</span>
+                        </span>
+                    </a>
+                    <a class="career-card" href="./carreras/matematica/index.html">
+                        <span class="career-card-media"><img src="./recursos/img/slider-matematica.jpg" alt="" loading="lazy"></span>
+                        <span class="career-card-body">
+                            <span class="tag">Profesorado</span>
+                            <span class="career-card-title">Profesorado en Matemática</span>
+                        </span>
+                    </a>
+                    <a class="career-card" href="./carreras/quimica/index.html">
+                        <span class="career-card-media"><img src="./recursos/img/slider-quimica.jpg" alt="" loading="lazy"></span>
+                        <span class="career-card-body">
+                            <span class="tag">Profesorado</span>
+                            <span class="career-card-title">Profesorado en Química</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h2 class="footer-title">Facultad de Ciencia y Tecnología</h2>
+                    <p>Sede Concepción del Uruguay<br>25 de Mayo 385 - CP: 3260<br>Concepción del Uruguay - Entre Ríos - Argentina</p>
+                    <p><a href="http://fcytcdelu.uader.edu.ar/" target="_blank" rel="noopener">Facultad de Ciencia y Tecnología - Concepción del Uruguay</a></p>
+                </div>
+                <div>
+                    <h2 class="footer-title">Seguinos</h2>
+                    <div class="social">
+                        <a href="https://www.facebook.com/uaderfcytcdelu" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4 1.7-4 4.3V10H7v4h3v8h4v-8h3l.5-4H14V8.6c0-.4.2-.6.6-.6z"/></svg></a>
+                        <a href="https://www.instagram.com/fcyt_uader_cdelu/?hl=es-la" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.5 5.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
+                        <a href="https://www.youtube.com/channel/UCb4RLTZlFFZOWdcR7ZpokFQ" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">FCyT - UADER · Sede Concepción del Uruguay</p>
         </div>
-        <div class="row pb-5">
-          <div class="col-md-4 p-3">
-            <a href="./bienvenidos/index.html">
-              <div class="inner">
-                <img src="recursos/img/icono-bienvenidos.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 p-3">
-            <a href="./ingreso/index.html">
-              <div class="inner">
-                <img src="recursos/img/icono-ingreso.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 p-3">
-            <a href="./carreras/index.html">
-              <div class="inner">
-                <img src="recursos/img/icono-carreras.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 align-items-center p-3">
-            <a href="./tutorias/index.html">
-              <div class="inner">
-                <img src="recursos/img/icono-tutorias.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 p-3">
-            <a href="./bienestar/index.html">
-              <div class="inner">
-                <img src="recursos/img/icono-bienestar.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 p-3">
-            <a href="./museo/index.html">
-              <div class="inner">
-                <img src="recursos/img/icono-museo.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 p-3">
-            <a href="https://tourfcytuader.com/" target="_blank">
-              <div class="inner">
-                <img src="recursos/img/icono-tour.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 p-3">
-            <a href="./contacto/index.html">
-              <div class="inner">
-                <img src="recursos/img/icono-contacto.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 p-3">
-            <a href="./ubicacion/index.html">
-              <div class="inner">
-                <img src="recursos/img/icono-ubicacion.png" class="img-fluid rounded-circle w-50 shadow img-thumbnail" alt="">
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!--
-
-    *******************  Footer   *******************
-
-    -->
-    <footer class="footer fixed-bottom">
-      <div class="container-fluid bg-azul-medio">
-        <div class="row justify-content-center align-items-center text-center">
-          <div class="col-sm-12 p-3">
-            <a href="http://fcytcdelu.uader.edu.ar/" target="_blank">
-              Facultad de Ciencia y Tecnología - Concepción del Uruguay
-            </a>
-          </div>
-        </div>
-      </div>
     </footer>
 
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="recursos/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="recursos/js/popper.min.js"></script>
-    <script src="recursos/js/bootstrap.min.js"></script>
-  </body>
+    <script src="recursos/js/menu.js"></script>
+</body>
 </html>

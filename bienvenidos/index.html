@@ -1,140 +1,94 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../recursos/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../recursos/css/style.css">
-
-    <title>Feria Virtual de Carreras</title>
-  </head>
-  <body class="bg-azul-claro">
-
-
-        <!--
-
-        *******************  Menú   *******************
-
-        -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-oscuro">
-      <a class="navbar-brand" href="../index.html">UADER <strong>FCyT</strong></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="./index.html">Bienvenidos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../ingreso/index.html">Ingreso</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../carreras/index.html">Carreras</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../tutorias/index.html">Tutorías</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../bienestar/index.html">Bienestar Estudiantil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../museo/index.html">Museo de Ciencias Naturales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://tourfcytuader.com/" target="_blank">Tour por la FCyT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../contacto/index.html">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../ubicacion/index.html">Ubicación</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- d-sm-flex 576 - d-md-flex 768 - d-lg-flex 990 - d-xl-flex 1200 -->
-    <section class="title pt-5 text-center text-light">
-      <h1 class="pt-3">Bienvenidos</h1>
-    </section>
-
-
-    <!--
-
-    *******************  Banner   *******************
-
-    -->
-    <section class="banner">
-      <img src="../recursos/img/banner-bienvenidos.jpg" class="d-block w-100" alt="...">
-    </section>
-
-
-
-    <!--
-
-    *******************  Container   *******************
-
-    -->
-    <section class="cuerpo pb-3">
-      <div class="container-md bg-light align-items-center text-center text-azul-medio p-5">
-        <div class="row align-items-center text-center">
-          <div class="col-md-6 p-2">
-            <div class="card">
-              <div class="card-image">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://www.youtube.com/embed/RdGUjrBoCsg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
-              <div class="card-body">
-                <p class="card-text">Video Institucional de la Facultad de Ciencia y Tecnología Sede Concepción del Uruguay.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 p-2">
-            <div class="card">
-              <div class="card-image">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://www.youtube.com/embed/bLzrT-iZF-4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
-              <div class="card-body">
-                <p class="card-text">El Profesor Fabián Poerio brinda una introducción sobre la Vida Universitaria.</p>
-              </div>
-            </div>
-          </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bienvenida a la Facultad de Ciencia y Tecnología - UADER.">
+    <meta name="theme-color" content="#22315c">
+    <title>Bienvenidos - Feria Virtual de Carreras FCyT</title>
+    <link rel="icon" type="image/png" href="../recursos/img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../recursos/img/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="../recursos/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../recursos/css/feria.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="../index.html">
+                <img src="../recursos/img/logo-fcyt.png" alt="FCyT UADER - Sede Concepción del Uruguay" width="135" height="45">
+                <span class="brand-text"><strong>Feria Virtual</strong>de Carreras</span>
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
+                Menú
+            </button>
+            <nav class="site-nav" id="site-nav" aria-label="Secciones">
+                <ul>
+                    <li><a href="../bienvenidos/index.html" aria-current="page">Bienvenidos</a></li>
+                    <li><a href="../ingreso/index.html">Ingreso</a></li>
+                    <li><a href="../carreras/index.html">Carreras</a></li>
+                    <li><a href="../tutorias/index.html">Tutorías</a></li>
+                    <li><a href="../bienestar/index.html">Bienestar</a></li>
+                    <li><a href="../museo/index.html">Museo</a></li>
+                    <li><a href="../contacto/index.html">Contacto</a></li>
+                    <li><a href="../ubicacion/index.html">Ubicación</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
-    </section>
+    </header>
 
-
-        <!--
-
-        *******************  Footer   *******************
-
-        -->
-        <footer class="footer fixed-bottom">
-          <div class="container-fluid bg-azul-medio">
-            <div class="row justify-content-center align-items-center text-center">
-              <div class="col-sm-12 p-3">
-                <a href="http://fcytcdelu.uader.edu.ar/" target="_blank">
-                  Facultad de Ciencia y Tecnología - Concepción del Uruguay
-                </a>
-              </div>
+    <main>
+        <section class="hero hero-photo" style="background-image: url('../recursos/img/banner-bienvenidos.jpg')">
+            <div class="container hero-inner">
+                <h1>Bienvenidos</h1>
+                <p class="hero-lead">Conocé la Facultad y la vida universitaria.</p>
             </div>
-          </div>
-        </footer>
+        </section>
 
+        <section class="section">
+            <div class="container">
+                <div class="grid grid-videos">
+                    <figure class="video">
+                        <div class="video-frame">
+                            <iframe src="https://www.youtube.com/embed/RdGUjrBoCsg?rel=0" title="Video Institucional de la Facultad de Ciencia y Tecnología Sede Concepción del Uruguay." loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <figcaption>Video Institucional de la Facultad de Ciencia y Tecnología Sede Concepción del Uruguay.</figcaption>
+                    </figure>
+                    <figure class="video">
+                        <div class="video-frame">
+                            <iframe src="https://www.youtube.com/embed/bLzrT-iZF-4?rel=0" title="El Profesor Fabián Poerio brinda una introducción sobre la Vida Universitaria." loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <figcaption>El Profesor Fabián Poerio brinda una introducción sobre la Vida Universitaria.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h2 class="footer-title">Facultad de Ciencia y Tecnología</h2>
+                    <p>Sede Concepción del Uruguay<br>25 de Mayo 385 - CP: 3260<br>Concepción del Uruguay - Entre Ríos - Argentina</p>
+                    <p><a href="http://fcytcdelu.uader.edu.ar/" target="_blank" rel="noopener">Facultad de Ciencia y Tecnología - Concepción del Uruguay</a></p>
+                </div>
+                <div>
+                    <h2 class="footer-title">Seguinos</h2>
+                    <div class="social">
+                        <a href="https://www.facebook.com/uaderfcytcdelu" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4 1.7-4 4.3V10H7v4h3v8h4v-8h3l.5-4H14V8.6c0-.4.2-.6.6-.6z"/></svg></a>
+                        <a href="https://www.instagram.com/fcyt_uader_cdelu/?hl=es-la" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.5 5.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
+                        <a href="https://www.youtube.com/channel/UCb4RLTZlFFZOWdcR7ZpokFQ" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">FCyT - UADER · Sede Concepción del Uruguay</p>
+        </div>
+    </footer>
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../recursos/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="../recursos/js/popper.min.js"></script>
-    <script src="../recursos/js/bootstrap.min.js"></script>
-  </body>
+    <script src="../recursos/js/menu.js"></script>
+</body>
 </html>
